@@ -61,3 +61,13 @@ footer h3 {
     grid-column: span 2;
     border-bottom: solid 1px #fffefe;
 }
+
+a {
+    color:rgb(171, 223, 253);
+    text-decoration: none;
+}
+
+a:hover {
+    color:aqua;
+    text-decoration: underline;
+}
