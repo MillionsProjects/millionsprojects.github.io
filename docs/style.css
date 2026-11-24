@@ -2,6 +2,19 @@ body {
     background-color: #0a0909;
     color: #ccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0.5em 1em;
+}
+
+header img {
+    max-width: 85px;
+    aspect-ratio: auto;
 }
 
 .in-the-box {
@@ -70,4 +83,24 @@ a {
 a:hover {
     color:aqua;
     text-decoration: underline;
+}
+
+#main-nav ul {
+    color: white;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    list-style: none;
+}
+
+#main-nav li {
+    font-size: 1.5rem
+}
+
+.horizontal {
+    display: flex;
+    gap: 20px
 }
